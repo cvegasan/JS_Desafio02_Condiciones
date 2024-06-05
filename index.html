@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafío 2 - JavaScript</title>
+    <link rel="stylesheet" href="./assets/css/estilos.css">
+</head>
+<body>
+    <!--RQ01 Imagen debe mostar/quitar borde rojo-->
+    <section class="flex_item_body">
+        <figcaption>
+            1. Al hacer 1 click en la imagen, se agrega borde de color rojo. Al segundo click, desaparecerá el borde.
+        </figcaption>
+        <figure class="cls-alineacion-centro">
+            <img id="idOctocat" src="./assets/img/github_octocat.png" alt="logo de octocat">
+        </figure>
+    </section>
+    <!--RQ02 10 stickers de los 3 tipos-->
+    <section>
+        <figcaption>
+            2. Permite llevar hasta 10 stickers en total de los 3 tipos disponibles.
+        </figcaption>
+        <div class="cls-alineacion-centro">
+            <div class="cls-alineacion-columnas">
+                <img src="./assets/img/github_octocat.png" alt="logo de octocat">
+                <input type="text" id="idStkOctocat" maxlength="2"/>
+            </div>
+            <div class="cls-alineacion-columnas">
+                <img src="./assets/img/slack.png" alt="logo de slack">
+                <input type="text" id="idStkSlack" maxlength="2"/>
+            </div>
+            <div class="cls-alineacion-columnas">
+                <img src="./assets/img/git.png" alt="logo de git">
+                <input type="text" id="idStkGit" maxlength="2"/>
+            </div>
+        </div>
+        <div class="cls-alineacion-centro">
+            <p><span id="idMensajeStickers">mensaje</span></p>
+        </div>
+        <div class="cls-alineacion-centro .cls-alineacion-btnStickers">
+            <button onclick="fnCantidadStickers()">ingresar</button>
+        </div>
+    </section>
+    <!--RQ03 password select-->
+    <section>
+        <figcaption>
+            3. Verifica contraseña.
+        </figcaption>
+        <div class="cls-alineacion-centro">
+            <div class="cls-alineacion-columnas" style="padding: 10px;border:black solid 2px;">
+                <div>
+                    <h4><strong>Ingresa el password</strong></h4>
+                </div>
+                <div>
+                    <select id="select01">
+                        <option value="1" selected>1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                    </select>
+                    <select id="select02">
+                        <option value="1" selected>1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                    </select>
+                    <select id="select03">
+                        <option value="1" selected>1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                    </select>
+                </div>
+                <div class="cls-alineacion-centro cls-alineacion-columnas">
+                    <button onclick="fnValidaPassword()">ingresar</button>
+                    <p><span id="idMensajePassword"></span></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="./assets/js/script_borde.js"></script>
+    <script src="./assets/js/script_password.js"></script>
+    <script src="./assets/js/script_stickers.js"></script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.cls-alineacion-centro{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.cls-alineacion-columnas{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:10px;
+}
+.cls-alineacion-btnStickers{
+    padding-bottom: 10px;
+}
