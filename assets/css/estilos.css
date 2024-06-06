@@ -17,3 +17,20 @@
 .cls-alineacion-btnStickers{
     padding-bottom: 10px;
 }
+div>button{
+    margin: 10px;
+}
+.cls-formato-borde{
+    padding: 10px;
+    border:black solid 2px;
+}
+.cls-tamannio-imagen{
+    width:100px;
+    height: 100px;
+}
+.cls-ancho-input{
+    width:100px;
+}
+.cls-alineacion-titulo-pass{
+    padding:20px;
+}
