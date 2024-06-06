@@ -31,5 +31,5 @@ function fnCantidadStickers(){
         mensajeStickers.innerHTML = mensaje.concat("Llevas demasiados stickers");
     else
         mensajeStickers.innerHTML = mensaje.concat("Lleva ", totalStickers," Stickers");
-    return totalStickers;
+    return 0;
 }

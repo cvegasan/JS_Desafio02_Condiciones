@@ -48,5 +48,5 @@ function fnValidaPassword(){
                 mensajePassword.innerHTML ="password incorrecto";
     }
 
-    return Password;
+    return 0;
 }

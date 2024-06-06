@@ -32,7 +32,7 @@ function borde(){
         imgclick.style.border = "none"
         muestraBorde = true;
     }
-    return muestraBorde;
+    return 0;
 }
 
 
