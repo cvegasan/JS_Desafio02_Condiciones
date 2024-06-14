@@ -24,11 +24,11 @@ imgclick.addEventListener("click", borde);
 function borde(){
     // Si el borde no es visible, es decir, es false
     if (muestraBorde===true){
-        // Se agrega el borde y bordevisible a true
+        // Se agrega el borde y muestraBorde a false
         imgclick.style.border = "2px solid red";
         muestraBorde = false;
     }else{ // Si el borde es visible, es decir, es true
-        // Se quita el borde y cambia bordevisible a false
+        // Se quita el borde y cambia muestraBorde a true
         imgclick.style.border = "none";
         muestraBorde = true;
     }
