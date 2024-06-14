@@ -29,7 +29,7 @@ function borde(){
         muestraBorde = false;
     }else{ // Si el borde es visible, es decir, es true
         // Se quita el borde y cambia bordevisible a false
-        imgclick.style.border = "none"
+        imgclick.style.border = "none";
         muestraBorde = true;
     }
     return 0;
